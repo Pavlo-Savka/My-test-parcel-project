@@ -38,6 +38,7 @@ function renderMarkup(
 <div class="card">
 <div class="card__img-wrapper">
 <img class="card__img" src="${mediaUrl}" alt="${mediaAlt}"> 
+ <button type="button" class="card__faw">Add to favorite</button>
 </div>
 <h2 class="card__title">${title}</h2>
 <p class="card__subscribe">${subscribe}</p>
